@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 20px;
+}
+.home_box{
+     position: absolute;
+     right: 40%;
+     top: 5%;
+    
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'Scream Real';
+    cursor: pointer;
+                                                
+
+}
+
+.button-group{
+    position: absolute;
+    right: 20%;
+    top: 5%;
+    display: inline-block;
+}
+.square_img{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    position: absolute;
+    top: 48%;
+    left: 13%;
+    z-index: -1;
+}
+.image_img{
+    width: 350px;
+    height: 400px;
+    z-index: 1000;
+    margin-top: 6%;
+}
+.globes{
+    position: absolute;
+    right: 48%;
+    top: 20%;
+    width: 50px;
+    }
+.start{
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    width: 40px;
+}
+.hero-container-right{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+.hero-heading{
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-size: 40px;
+
+}
+.nav-button{
+    display: inline-block;
+    margin-top: 27px;
+    width: 120px;
+    height: 30px;
+    background-color: transparent;
+    border-radius:20px;
+    
+
+}
+.search-icon{
+    margin-top: 27px;
+    margin-right: 120px;
+    position: absolute;
+    right: 4%;
+
+}
+.hero-description{
+    font-size: 20px;
+    text-justify: auto;
+}
+.button-email{
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 60px;
+    margin-right: 10px;
+    outline: none;
+    border: 2px #ccc solid;
+}
+.button-join{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #0f0f0f;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-top: 60px;
+}
+.social_icons{
+    margin: 15px;
+    margin-top: 150px;
+    width: 30px;
+}
+.contact-heading{
+    position: absolute;
+    top: 74%;
+    right: 34%;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
